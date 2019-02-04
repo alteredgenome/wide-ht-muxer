@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+## WHiM
 
-You can use the [editor on GitHub](https://github.com/alteredgenome/wide-ht-muxer/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+WHiM or Wide Hierarchical Muxer
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Background
 
-### Markdown
+Originally created as a hypertext muxer, WHiM has become a fork of the jigdo software which is adding capability for transferring hypertext data.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Function
 
-```markdown
-Syntax highlighted code block
+WHiM works on the underlying principle of jigdo in which multiple parts and directories are combined into one resulting file at the end. It works with HTTP data as well with an add-on/plug-in for the desired browser which interfaces with whim.dll (Linux implementation coming soon!) 
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+- Download Files
+```whim remotefile.wif
+```
+- Stream HTTP Data
+```whim remotedestination.wis
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/alteredgenome/wide-ht-muxer/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+© 2019 AlteredGenome
