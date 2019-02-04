@@ -33,7 +33,7 @@ or
 ```
 whim-compile -file [FILE/DIRECTORY]
 ```
--Create a WHiM Stream Index (WSI)
+- Create a WHiM Stream Index (WSI)
 ```
 whim-compile -s [FILE/DIRECTORY]
 ```
