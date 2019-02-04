@@ -50,6 +50,6 @@ whm://remotedestination
 whm://remotehost.com/remotedestination.wsi
 ```
 ### Status
-.https://img.shields.io/badge/status-DEVELOPMENT-red.svg
+!https://img.shields.io/badge/status-DEVELOPMENT-red.svg
 
 © 2019 AlteredGenome
